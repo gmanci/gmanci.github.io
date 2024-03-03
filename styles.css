@@ -11,8 +11,10 @@ body {
 }
 
 #header {
-    font-size: 80px;
-    text-align: center;
+    width: 600px;
+}
+
+#header text {
     font-family: AntiFont;
 }
 
@@ -36,6 +38,7 @@ body {
     display: block;
     text-decoration: inherit;
     color: inherit;
+    width: fit-content;
 }
 
 .link:hover {
@@ -116,15 +119,16 @@ body {
     opacity: 100%;;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     #home-page {
-        margin: auto 95px auto 96px;
+        margin: auto 22px auto 22px;
     }
 
     #header {
-        font-size: 56px;
-        margin-bottom: 72px;
+        margin-bottom: 42px;
         white-space: nowrap;
+        margin-left: auto;
+        width: 100%;
     }
 
     #about {
@@ -138,6 +142,10 @@ body {
     }
 
     .project-page {
-        max-width: 400px;
+        max-width: 280px;
+    }
+
+    .project-page__link {
+        margin-top: 52px;
     }
 }
