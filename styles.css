@@ -6,6 +6,8 @@
 body {
     font-size: 14px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 200;
+    color: #1C2B38;
 }
 
 #header {
@@ -28,7 +30,7 @@ body {
     margin-top: 16px;
 }
 
-a {
+.link {
     margin: 0;
     opacity: 68%;
     display: block;
@@ -36,7 +38,7 @@ a {
     color: inherit;
 }
 
-#contact a:hover {
+.link:hover {
     text-decoration: underline;
 }
 
@@ -80,6 +82,40 @@ a {
     margin-left: -13px;
 }
 
+.project-page__header {
+    font-weight: 450;
+}
+
+.project-page__image {
+    width: 100%;
+}
+
+.project-page__section {
+    margin-bottom: 44px;
+    line-height: 20px;
+}
+
+.project-page__section-header {
+    font-weight: 500;
+}
+
+.project-page__image-description {
+    opacity: 68%;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.project-page__link {
+    margin-top: 102px;
+    margin-bottom: 56px;
+}
+
+.project-page__link:hover {
+    text-decoration: none;
+    opacity: 100%;;
+}
+
 @media screen and (max-width: 700px) {
     #home-page {
         margin: auto 95px auto 96px;
@@ -99,5 +135,9 @@ a {
     #personal {
         margin: initial;
         max-width: none;
+    }
+
+    .project-page {
+        max-width: 400px;
     }
 }
