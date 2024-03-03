@@ -19,10 +19,6 @@ body {
     margin: 250px auto 180px auto;
 }
 
-#about p {
-    margin: 0;
-}
-
 #personal {
     max-width: fit-content;
     margin: auto;
