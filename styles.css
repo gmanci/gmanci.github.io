@@ -1,0 +1,143 @@
+@font-face {
+    font-family: AntiFont;
+    src: url("./assets/fonts/AntiDesign-Anti-Font-4.otf") format("opentype");
+}
+
+body {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 200;
+    color: #1C2B38;
+}
+
+#header {
+    font-size: 80px;
+    text-align: center;
+    font-family: AntiFont;
+}
+
+#about {
+    max-width: fit-content;
+    margin: 250px auto 180px auto;
+}
+
+#personal {
+    max-width: fit-content;
+    margin: auto;
+}
+
+#contact {
+    margin-top: 16px;
+}
+
+.link {
+    margin: 0;
+    opacity: 68%;
+    display: block;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+#project-list {
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+}
+
+.project {
+    color: inherit;
+    text-decoration: inherit;
+    max-width: 600px;
+    width: 100%;
+    border: 2px solid;
+    border-color: #666D74;
+    margin-bottom: 80px;
+}
+
+.project img {
+    max-width: 100%;
+    display: block;
+}
+
+.project-details {
+    border-top: 2px solid;
+    border-color: #666D74;
+    padding: 12px;
+}
+
+.project-details .title {
+    font-weight: 600;
+}
+
+.project-page {
+    margin: auto;
+    max-width: 600px;
+}
+
+.project-page a {
+    margin-left: -13px;
+}
+
+.project-page__header {
+    font-weight: 450;
+}
+
+.project-page__image {
+    width: 100%;
+}
+
+.project-page__section {
+    margin-bottom: 44px;
+    line-height: 20px;
+}
+
+.project-page__section-header {
+    font-weight: 500;
+}
+
+.project-page__image-description {
+    opacity: 68%;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.project-page__link {
+    margin-top: 102px;
+    margin-bottom: 56px;
+}
+
+.project-page__link:hover {
+    text-decoration: none;
+    opacity: 100%;;
+}
+
+@media screen and (max-width: 700px) {
+    #home-page {
+        margin: auto 95px auto 96px;
+    }
+
+    #header {
+        font-size: 56px;
+        margin-bottom: 72px;
+        white-space: nowrap;
+    }
+
+    #about {
+        margin: 106px 0 72px 0;
+        max-width: none;
+    }
+
+    #personal {
+        margin: initial;
+        max-width: none;
+    }
+
+    .project-page {
+        max-width: 400px;
+    }
+}
