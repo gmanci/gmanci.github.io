@@ -11,7 +11,8 @@ body {
 }
 
 #header {
-    width: 600px;
+    width: 540px;
+    margin-bottom: 104px;
 }
 
 #header text {
@@ -42,7 +43,8 @@ body {
 }
 
 .link:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    opacity: 100%;;
 }
 
 #project-list {
@@ -81,10 +83,6 @@ body {
     max-width: 600px;
 }
 
-.project-page a {
-    margin-left: -13px;
-}
-
 .project-page__header {
     font-weight: 450;
 }
@@ -110,16 +108,14 @@ body {
 }
 
 .project-page__link {
+    display: flex;
+    align-items: center;
     margin-top: 102px;
     margin-bottom: 56px;
+    margin-left: -24px;
 }
 
-.project-page__link:hover {
-    text-decoration: none;
-    opacity: 100%;;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     #home-page {
         margin: auto 22px auto 22px;
     }
