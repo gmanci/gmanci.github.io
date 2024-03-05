@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gianni Mancinelli</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  </head>
+
+  <body>
+    <div class="project-page">
+        <a class="link project-page__link" href="../index.html"><img src="../assets/ui/chevron-left.svg" />Home</a>
+        <h3 class="project-page__header">Teams for Relevancy</h3>
+        <section class="project-page__section">
+          <img class="project-page__image full-bleed" src="../assets/images/TeamsRelevancy.gif" />
+        </section>
+        <section class="project-page__section">
+          <h4 class="project-page__section-header">Problem</h4>          
+          <p>
+            The Datadog experience, by default, doesn’t align with our users’ scopes of responsibility.
+          </p>
+          <p>
+            As a result, they’re inundated with huge lists of results
+          </p>
+          <img class="project-page__image" src="../assets/images/Imagesof50kresults.png" />
+          <p>
+            As a result, they’re inundated with huge lists of results
+          </p>
+          <img class="project-page__image" src="../assets/images/SimpleUserFlowSayingDashboards.png" />
+        </section>
+        <h3 class="project-page__subheader">How might we introduce a structure so that users only see what they need?</h3>
+        <section class="project-page__section">
+          <h4 class="project-page__section-header">Explorations</h4>
+          <img class="project-page__image full-bleed" src="../assets/images/NavOnly.gif" />
+          <p class="project-page__image-description primary">
+            One direction I worked on explored filtering content out of view, in the navigation, but I wanted to prioritize discovery and adoption since this is new functionality.
+          </p>
+          <img class="project-page__image full-bleed" src="../assets/images/facet.gif" />
+          <p class="project-page__image-description primary">
+            I also looked into an existing pattern we had, the Facet. But I knew I wanted the filter to save it’s state between products, and Facets do not.
+          </p>
+          <img class="project-page__image full-bleed" src="../assets/images/TeamsFilter.gif" />
+          <p class="project-page__image-description primary">
+            The direction I chose was a consistent filter to be added across all search experiences in Datadog. It aligned with future search changes coming across the design team, was easy to implement across tons of different search experiments, and was built with components to help with rollout.
+          </p>
+        </section>
+        <section class="project-page__section">
+            <img class="project-page__image" src="../assets/images/TeamsRelevancy.gif" />
+            <p class="project-page__image-description primary">
+                Users no longer have to type similar queries across products. Their context follows them.
+            </p>
+        </section>
+        <section class="project-page__section">
+            <img class="project-page__image" src="../assets/images/teampillpopover.jpg" />
+            <p class="project-page__image-description primary">
+                I built a suite of components around Team tagging and searching and spread these across dozens of teams and features at Datadog.
+            </p>
+        </section>
+        <section class="project-page__section">
+            <h4 class="project-page__section-header">Outcome</h4>
+            <p>
+                It was a huge relevancy win.
+            </p>
+            <p>
+                8000 organizations are using this feature, and it’s most valuable to our largest, highest priority customers.
+            </p>
+            <p>
+                My designs lessened the strain on other features that were being misused for relevancy hacks, such as RBAC, or creating whole new orgs just to see relevant content.
+            </p>
+        </section>
+        <section class="project-page__section">
+            <h4 class="project-page__section-header">Next Steps</h4>
+            <p>
+                I’m partnering with our access and saved search teams to create the next version of this, a “context companion” which is constantly, subtly, present. It will show the user all the factors that are affecting their view, like their saved searches, their teams, and their access restrictions, bringing visibility and clarity while also simplifying the UI and eliminating the need for multiple indicators.
+            </p>
+        </section>
+      </div>
+	
+    <script src="index.js"></script>
+  </body>
+</html>
