@@ -56,7 +56,7 @@ body {
 .project {
     color: inherit;
     text-decoration: inherit;
-    max-width: 600px;
+    max-width: 688px;
     width: 100%;
     border: 2px solid;
     border-color: #666D74;
@@ -86,11 +86,11 @@ body {
 .project-page {
     box-sizing: border-box; 
     margin: auto;
-    max-width: 1000px;
+    max-width: 1064px;
 }
 
 .project-page * {
-    padding: 0 200px 0 200px;
+    padding: 0 188px 0 188px;
 }
 
 .project-page section {
@@ -128,7 +128,7 @@ body {
     opacity: 68%;
     font-size: 14px;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 64px;
 }
 
 .project-page__image-description.primary {
@@ -156,9 +156,24 @@ body {
     margin-left: 24px;
 }
 
-@media screen and (max-width: 1063px) {
+@media screen and (max-width: 1192px) {
+    .project-page {
+        margin-left: 68px;
+        margin-right: 68px;
+    }
+
+    .project-page__link {
+        margin-top: 52px;
+    }
+
+    .project-page * {
+        padding: 0;
+    }   
+}
+
+@media screen and (max-width: 838px) {
     #home-page {
-        margin: auto 22px auto 22px;
+        margin: auto 68px auto 68px;
     }
 
     #header {
@@ -177,17 +192,4 @@ body {
         margin: initial;
         max-width: none;
     }
-
-    .project-page {
-        max-width: 280px;
-    }
-
-    .project-page__link {
-        margin-top: 52px;
-    }
-
-    .project-page * {
-        padding: 0;
-    }
-    
 }
