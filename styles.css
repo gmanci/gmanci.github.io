@@ -156,10 +156,10 @@ body {
     margin-left: 24px;
 }
 
-@media screen and (max-width: 1192px) {
+@media screen and (max-width: 1122px) {
     .project-page {
-        margin-left: 68px;
-        margin-right: 68px;
+        margin-left: 22px;
+        margin-right: 22px;
     }
 
     .project-page__link {
@@ -171,9 +171,9 @@ body {
     }   
 }
 
-@media screen and (max-width: 838px) {
+@media screen and (max-width: 748px) {
     #home-page {
-        margin: auto 68px auto 68px;
+        margin: auto 22px auto 22px;
     }
 
     #header {
