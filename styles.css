@@ -4,7 +4,8 @@
 }
 
 body {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 1.6;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 200;
     color: #1C2B38;
@@ -17,11 +18,12 @@ body {
 
 #header text {
     font-family: AntiFont;
+    font-size: 14px;
 }
 
 #about {
     max-width: fit-content;
-    margin: 250px auto 180px auto;
+    margin: 140px auto 180px auto;
 }
 
 #personal {
@@ -102,10 +104,12 @@ body {
 }
 
 .project-page__header {
+    font-size: 28px;
     font-weight: 450;
 }
 
 .project-page__subheader {
+    font-size: 28px;
     font-weight: 450;
     margin-bottom: 48px;
 }
@@ -117,16 +121,21 @@ body {
 
 .project-page__section {
     margin-bottom: 48px;
-    line-height: 20px;
 }
 
 .project-page__section-header {
     font-weight: 500;
 }
 
+.project-page__subsection-header {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
 .project-page__image-description {
     opacity: 68%;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     margin-bottom: 64px;
 }
